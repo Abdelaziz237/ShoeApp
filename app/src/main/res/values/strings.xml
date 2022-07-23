@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tread</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">next</string>
+    <string name="sneakers">Sneakers</string>
+    <string name="inactive">inactive</string>
+    <string name="active">active</string>
+    <string name="best_shop_managment_nexperience">Best shop management \nExperience</string>
+    <string name="instructions_text">Click finish and manage you products\nPress + button add shoes to your market</string>
+    <string name="add_your_sneakers_easily_in_just_few_clicks">Add your sneakers easily in just few clicks</string>
+    <string name="instructions">Instructions</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="personal_info">Personal Info..</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_in_to_continue">Sign in to continue..</string>
+    <string name="welcome_back_nstart_managing_your_shop_now">Welcome Back!\nStart managing, now..</string>
+    <string name="add">add</string>
+    <string name="shoes_list">Shoes list</string>
+    <string name="log_out">Log out</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="size">Size</string>
+    <string name="company">Company</string>
+    <string name="description">description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add_new_shoes">Add new shoes</string>
+    <string name="finish">Finish</string>
+    <string name="dot_active">active</string>
+    <string name="dot_inactive">inactive</string>
+</resources>

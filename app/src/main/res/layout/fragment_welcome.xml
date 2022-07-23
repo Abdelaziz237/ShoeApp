@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WelcomeFragment">
+
+    <!-- Styles the views over the screen with custom constraints -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sneaker_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/margin_64"
+            android:layout_marginTop="@dimen/margin_32"
+            android:layout_marginEnd="@dimen/margin_64"
+            android:layout_marginBottom="@dimen/margin_32"
+            android:contentDescription="@string/sneakers"
+            android:src="@drawable/ic_shoe"
+            app:layout_constraintBottom_toTopOf="@+id/header_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/best_shop_managment_nexperience"
+            app:layout_constraintBottom_toTopOf="@+id/sub_text"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/header_text" />
+
+        <TextView
+            android:id="@+id/sub_text"
+            style="@style/sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_your_sneakers_easily_in_just_few_clicks"
+            app:layout_constraintBottom_toTopOf="@+id/to_instructions"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/inactive_dot"
+            android:layout_width="@dimen/margin_16"
+            android:layout_height="@dimen/margin_16"
+            android:layout_marginStart="@dimen/margin_4"
+            android:contentDescription="@string/inactive"
+            app:layout_constraintBottom_toBottomOf="@+id/to_instructions"
+            app:layout_constraintStart_toEndOf="@+id/active_dot"
+            app:layout_constraintTop_toTopOf="@+id/to_instructions"
+            app:srcCompat="@drawable/circle_grey"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/active_dot"
+            android:layout_width="@dimen/margin_16"
+            android:layout_height="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:contentDescription="@string/active"
+            app:layout_constraintBottom_toBottomOf="@+id/to_instructions"
+            app:layout_constraintEnd_toStartOf="@+id/to_instructions"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/to_instructions"
+            app:srcCompat="@drawable/circle_black" />
+
+        <Button
+            android:id="@+id/to_instructions"
+            style="@style/button"
+            android:text="@string/next"
+            app:cornerRadius="@dimen/margin_8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
