@@ -19,9 +19,8 @@
 * Observable state LiveData variables to trigger navigation
 
 ## Screenshots
-![Screenshot1](screenshots/shoe_store_login.png)
-![Screenshot2](screenshots/shoe_store_signup.png)
-![Screenshot3](screenshots/shoe_store_welcome.png)
-![Screenshot4](screenshots/shoe_store_instructions.png)
-![Screenshot5](screenshots/shoe_store_home.png)
-![Screenshot6](screenshots/shoe_store_add.png)
+<img src="screenshots/shoe_store_login.jpg" width="200" height="400" /> | <img src="screenshots/shoe_store_signup.jpg" width="200" height="400" />
+
+<img src="screenshots/shoe_store_welcome.jpg" width="200" height="400" /> | <img src="screenshots/shoe_store_instructions.jpg" width="200" height="400" />
+
+<img src="screenshots/shoe_store_home.jpg" width="200" height="400" /> | <img src="screenshots/shoe_store_add.jpg" width="200" height="400" />
