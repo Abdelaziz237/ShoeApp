@@ -13,7 +13,7 @@ import com.abdelaziz.tread.databinding.FragmentAddBinding
 
 class AddFragment : Fragment() {
 
-    private val viewModel: HomeViewModel by activityViewModels()
+    private val viewModel: ViewModel by activityViewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

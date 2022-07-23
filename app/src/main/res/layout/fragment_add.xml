@@ -10,7 +10,7 @@
             type="com.abdelaziz.tread.Shoe" />
         <variable
             name="viewModel"
-            type="com.abdelaziz.tread.HomeViewModel" />
+            type="com.abdelaziz.tread.ViewModel" />
     </data>
 
     <!-- Styles the views over the screen with constraints -->
